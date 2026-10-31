@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "preventpotions",
+  "version": "${version}",
+  "name": "PreventPotions",
+  "description": "Blocks drinking, throwing and other uses of potions.",
+  "authors": ["Eyman"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["me.eyman.PreventPotions.fabric.PreventPotionsMod"]
+  },
+  "mixins": ["preventpotions.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.20.0",
+    "fabric-api": "*",
+    "minecraft": "${minecraft}",
+    "java": ">=${java}"
+  }
+}

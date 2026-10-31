@@ -1,0 +1,38 @@
+# ============================================================
+# PreventPotions Configuration
+# ============================================================
+# This plugin blocks players from using potions in different ways.
+# Made By Eyman
+# How to use:
+#  - Change any "true" to "false" (or vice versa) to adjust settings.
+#  - After editing this file, run the command:
+#       /preventpotions reload
+#    to apply the changes without restarting the server.
+#
+# Sections:
+#  - Player Actions  → drinking, splash, lingering, tipped arrows
+#  - Non-Player Sources → beacon effects, command effects
+# ============================================================
+
+prevent:
+  # --- Player Actions ---
+  drink: true
+  splash: true
+  lingering: true
+  tipped_arrows: true
+
+  # --- Non-Player Sources ---
+  beacon: false
+  commands: false
+
+# ============================================================
+# Messages shown to players when actions are blocked
+# Use '&' for colors (e.g. &c = red, &a = green)
+# ============================================================
+messages:
+  drink: "&cYou cannot drink potions on this server!"
+  splash: "&cSplash potions are disabled!"
+  lingering: "&cLingering potions are disabled!"
+  tipped_arrows: "&cTipped arrows are not allowed!"
+  beacon: "&cBeacon effects are disabled!"
+  commands: "&cPotion effects via commands are disabled!"

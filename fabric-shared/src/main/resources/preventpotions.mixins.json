@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.eyman.PreventPotions.fabric.mixin",
+  "compatibilityLevel": "JAVA_${java}",
+  "mixins": [
+    "BeaconBlockEntityMixin",
+    "EffectCommandsMixin",
+    "ItemEntityMixin",
+    "ProjectileWeaponItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
