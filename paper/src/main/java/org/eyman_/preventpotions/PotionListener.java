@@ -1,9 +1,8 @@
-package me.eyman.PreventPotions;
+package org.eyman_.preventpotions;
 
 import com.destroystokyo.paper.event.player.PlayerLaunchProjectileEvent;
 import com.destroystokyo.paper.event.player.PlayerReadyArrowEvent;
 import org.bukkit.Material;
-import org.bukkit.entity.HumanEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.ThrownPotion;
 import org.bukkit.event.EventHandler;
@@ -119,8 +118,7 @@ final class PotionListener implements Listener {
 
         event.setCancelled(true);
         event.setCurrentItem(null);
-        HumanEntity clicker = event.getWhoClicked();
-        clicker.sendMessage(settings.message("tipped_arrows"));
+        event.getWhoClicked().sendMessage(settings.message("tipped_arrows"));
     }
 
     @EventHandler

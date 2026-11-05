@@ -1,10 +1,10 @@
-package me.eyman.PreventPotions.fabric.mixin;
+package org.eyman_.preventpotions.fabric.mixin;
 
-import me.eyman.PreventPotions.fabric.PotionRules;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import org.eyman_.preventpotions.fabric.PotionRules;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;

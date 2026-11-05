@@ -1,4 +1,4 @@
-package me.eyman.PreventPotions.fabric;
+package org.eyman_.preventpotions.fabric;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

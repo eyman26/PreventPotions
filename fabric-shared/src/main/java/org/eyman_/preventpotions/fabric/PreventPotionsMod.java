@@ -1,4 +1,4 @@
-package me.eyman.PreventPotions.fabric;
+package org.eyman_.preventpotions.fabric;
 
 import me.lucko.fabric.api.permissions.v0.Permissions;
 import net.fabricmc.api.ModInitializer;

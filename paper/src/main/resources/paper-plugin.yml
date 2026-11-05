@@ -1,6 +1,6 @@
 name: PreventPotions
 version: '${version}'
-main: me.eyman.PreventPotions.PreventPotions
+main: org.eyman_.preventpotions.PreventPotions
 api-version: '1.21'
 author: Eyman
 description: Blocks drinking, throwing and other uses of potions.

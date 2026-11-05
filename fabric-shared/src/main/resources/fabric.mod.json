@@ -7,7 +7,7 @@
   "authors": ["Eyman"],
   "environment": "*",
   "entrypoints": {
-    "main": ["me.eyman.PreventPotions.fabric.PreventPotionsMod"]
+    "main": ["org.eyman_.preventpotions.fabric.PreventPotionsMod"]
   },
   "mixins": ["preventpotions.mixins.json"],
   "depends": {

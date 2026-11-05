@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.eyman.PreventPotions.fabric.mixin",
+  "package": "org.eyman_.preventpotions.fabric.mixin",
   "compatibilityLevel": "JAVA_${java}",
   "mixins": [
     "BeaconBlockEntityMixin",

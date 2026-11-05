@@ -1,11 +1,11 @@
-package me.eyman.PreventPotions.fabric.mixin;
+package org.eyman_.preventpotions.fabric.mixin;
 
-import me.eyman.PreventPotions.fabric.PotionRules;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ProjectileWeaponItem;
+import org.eyman_.preventpotions.fabric.PotionRules;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

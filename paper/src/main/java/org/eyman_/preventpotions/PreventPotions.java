@@ -1,4 +1,4 @@
-package me.eyman.PreventPotions;
+package org.eyman_.preventpotions;
 
 import io.papermc.paper.command.brigadier.BasicCommand;
 import io.papermc.paper.command.brigadier.CommandSourceStack;

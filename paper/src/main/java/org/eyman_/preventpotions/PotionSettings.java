@@ -1,4 +1,4 @@
-package me.eyman.PreventPotions;
+package org.eyman_.preventpotions;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;

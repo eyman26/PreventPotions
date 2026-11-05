@@ -1,13 +1,13 @@
-package me.eyman.PreventPotions.fabric.mixin;
+package org.eyman_.preventpotions.fabric.mixin;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
-import me.eyman.PreventPotions.fabric.PotionRules;
 import net.minecraft.server.commands.EffectCommands;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
+import org.eyman_.preventpotions.fabric.PotionRules;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 
